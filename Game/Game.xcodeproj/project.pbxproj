@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D27C8381E7E54990038E782 /* StartScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D27C8371E7E54990038E782 /* StartScene.m */; };
 		8DAF84931E59BD4B005A3384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF84921E59BD4B005A3384 /* main.m */; };
 		8DAF84961E59BD4B005A3384 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF84951E59BD4B005A3384 /* AppDelegate.m */; };
 		8DAF84991E59BD4B005A3384 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF84981E59BD4B005A3384 /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		8DAF84A41E59BD4B005A3384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF84A21E59BD4B005A3384 /* LaunchScreen.storyboard */; };
 		8DAF84AF1E59BD4C005A3384 /* GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF84AE1E59BD4C005A3384 /* GameTests.m */; };
 		8DAF84BA1E59BD4C005A3384 /* GameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF84B91E59BD4C005A3384 /* GameUITests.m */; };
-		8DAF84C81E59BDB8005A3384 /* MyActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF84C71E59BDB8005A3384 /* MyActions.sks */; };
 		8DAF84CB1E59C3A1005A3384 /* MainScence.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF84CA1E59C3A1005A3384 /* MainScence.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D27C8361E7E54990038E782 /* StartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartScene.h; sourceTree = "<group>"; };
+		8D27C8371E7E54990038E782 /* StartScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartScene.m; sourceTree = "<group>"; };
 		8DAF848E1E59BD4B005A3384 /* Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DAF84921E59BD4B005A3384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8DAF84941E59BD4B005A3384 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,7 +57,6 @@
 		8DAF84B51E59BD4C005A3384 /* GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DAF84B91E59BD4C005A3384 /* GameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameUITests.m; sourceTree = "<group>"; };
 		8DAF84BB1E59BD4C005A3384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DAF84C71E59BDB8005A3384 /* MyActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyActions.sks; sourceTree = "<group>"; };
 		8DAF84C91E59C3A1005A3384 /* MainScence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScence.h; sourceTree = "<group>"; };
 		8DAF84CA1E59C3A1005A3384 /* MainScence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScence.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,13 +115,14 @@
 				8DAF84981E59BD4B005A3384 /* ViewController.m */,
 				8DAF84C91E59C3A1005A3384 /* MainScence.h */,
 				8DAF84CA1E59C3A1005A3384 /* MainScence.m */,
+				8D27C8361E7E54990038E782 /* StartScene.h */,
+				8D27C8371E7E54990038E782 /* StartScene.m */,
 				8DAF849A1E59BD4B005A3384 /* Main.storyboard */,
 				8DAF84A01E59BD4B005A3384 /* Assets.xcassets */,
 				8DAF84A21E59BD4B005A3384 /* LaunchScreen.storyboard */,
 				8DAF84A51E59BD4B005A3384 /* Info.plist */,
 				8DAF849D1E59BD4B005A3384 /* Game.xcdatamodeld */,
 				8DAF84911E59BD4B005A3384 /* Supporting Files */,
-				8DAF84C71E59BDB8005A3384 /* MyActions.sks */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -261,7 +263,6 @@
 				8DAF84A41E59BD4B005A3384 /* LaunchScreen.storyboard in Resources */,
 				8DAF84A11E59BD4B005A3384 /* Assets.xcassets in Resources */,
 				8DAF849C1E59BD4B005A3384 /* Main.storyboard in Resources */,
-				8DAF84C81E59BDB8005A3384 /* MyActions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DAF84991E59BD4B005A3384 /* ViewController.m in Sources */,
+				8D27C8381E7E54990038E782 /* StartScene.m in Sources */,
 				8DAF84961E59BD4B005A3384 /* AppDelegate.m in Sources */,
 				8DAF84CB1E59C3A1005A3384 /* MainScence.m in Sources */,
 				8DAF84931E59BD4B005A3384 /* main.m in Sources */,
