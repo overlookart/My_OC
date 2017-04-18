@@ -7,41 +7,39 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "EnemyMode.h"
+#import "RoleMode.h"
+#import "SelectLevel.h"
 
-@interface MainScence : SKScene<SKPhysicsContactDelegate>
-/**
- 小飞机出现的时间
- */
-@property (nonatomic,assign) int smallPlaneTime;
 
-/**
- 中型飞机出现的时间
- */
-@property (nonatomic,assign) int mediumPlaneTime;
+typedef enum {
+    level_ordinary = 0,
+    level_allpeopleBOSS,
+    level_havemoney,
+}levelType;
 
-/**
-大型飞机出现的时间
- */
-@property (nonatomic,assign) int bigPlaneTime;
+@protocol MainScenceDelegate <NSObject>
 
-/**
- 显示分值的label
- */
-@property (nonatomic,strong) SKLabelNode *scoreLabel;
+-(void)challengeSuccess:(NSUInteger)gole :(NSArray *)goods :(NSInteger)level isBoss:(BOOL)isBOSS isHaveMoney:(BOOL)ishaveMoney;
 
-/**
- 玩家sprite
- */
-@property (nonatomic,strong) SKSpriteNode *playerPlane;
-//背景
-@property (nonatomic,strong) SKSpriteNode *background1;
-@property (nonatomic,strong) SKSpriteNode *background2;
+//金币的支出
+-(void)consumptionGold:(NSInteger)gold;
+@end
 
-@property (nonatomic,strong) SKAction *smallPlaneHitAction;
-@property (nonatomic,strong) SKAction *mediumPlaneHitAction;
-@property (nonatomic,strong) SKAction *bigPlaneHitAaction;
 
-@property (nonatomic,strong) SKAction *smallPlaneBlowupAction;
-@property (nonatomic,strong) SKAction *mediumPlaaneBlowupAaction;
-@property (nonatomic,strong) SKAction *bigPlaneBlowupAction;
+@interface MainScence : SKScene
+
+@property (nonatomic,weak) id<MainScenceDelegate> myDelegate;
+
+///本关卡等级
+@property (nonatomic,assign) NSInteger level;
+
+
+-(instancetype)initWithEnemyMode:(EnemyMode *)enemyMode roleMode:(RoleMode *)roleMode selectLevel:(SelectLevel *)selectLevel;
+
+///更新战斗场景
+-(void)updataMainScenceWithRole:(RoleMode *)role type:(levelType)levelType;
+
+//更新有钱任性战斗中的信息
+-(void)updataHaveMoneyWith:(RoleMode *)role;
 @end
