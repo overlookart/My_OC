@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2885E94825D03838004DCCC0 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2885E94725D03838004DCCC0 /* Entity.swift */; };
 		28FF230D22CC98B600573D4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FF230C22CC98B600573D4B /* AppDelegate.swift */; };
 		28FF230F22CC98B600573D4B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 28FF230E22CC98B600573D4B /* GameScene.sks */; };
 		28FF231122CC98B600573D4B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 28FF231022CC98B600573D4B /* Actions.sks */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2885E94725D03838004DCCC0 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		28FF230922CC98B600573D4B /* VolvonOrigin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolvonOrigin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FF230C22CC98B600573D4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28FF230E22CC98B600573D4B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,10 +53,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2885E94425D034E1004DCCC0 /* GamePlayKit */ = {
+			isa = PBXGroup;
+			children = (
+				2885E94625D037E0004DCCC0 /* Component */,
+				2885E94525D037D2004DCCC0 /* Entity */,
+			);
+			path = GamePlayKit;
+			sourceTree = "<group>";
+		};
+		2885E94525D037D2004DCCC0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2885E94725D03838004DCCC0 /* Entity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2885E94625D037E0004DCCC0 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		28FF230022CC98B600573D4B = {
 			isa = PBXGroup;
 			children = (
-				28FF232E22CC9C2B00573D4B /* GamePlayKit */,
+				2885E94425D034E1004DCCC0 /* GamePlayKit */,
 				28FF232822CC99F800573D4B /* SpriteKit */,
 				28FF232422CC992000573D4B /* GameKit */,
 				28FF230B22CC98B600573D4B /* VolvonOrigin */,
@@ -118,45 +144,6 @@
 				28FF232C22CC9BFD00573D4B /* Animate.swift */,
 			);
 			path = AnimateUtils;
-			sourceTree = "<group>";
-		};
-		28FF232E22CC9C2B00573D4B /* GamePlayKit */ = {
-			isa = PBXGroup;
-			children = (
-				28FF232F22CC9C3B00573D4B /* Entity&State&Component */,
-			);
-			path = GamePlayKit;
-			sourceTree = "<group>";
-		};
-		28FF232F22CC9C3B00573D4B /* Entity&State&Component */ = {
-			isa = PBXGroup;
-			children = (
-				28FF233222CC9C9500573D4B /* Entity */,
-				28FF233122CC9C8600573D4B /* State */,
-				28FF233022CC9C7300573D4B /* Component */,
-			);
-			path = "Entity&State&Component";
-			sourceTree = "<group>";
-		};
-		28FF233022CC9C7300573D4B /* Component */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Component;
-			sourceTree = "<group>";
-		};
-		28FF233122CC9C8600573D4B /* State */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = State;
-			sourceTree = "<group>";
-		};
-		28FF233222CC9C9500573D4B /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entity;
 			sourceTree = "<group>";
 		};
 		28FF233322CC9D2500573D4B /* Controller */ = {
@@ -246,6 +233,7 @@
 				28FF233722CC9D7500573D4B /* RockerControll.swift in Sources */,
 				28FF231322CC98B600573D4B /* GameScene.swift in Sources */,
 				28FF231522CC98B600573D4B /* GameViewController.swift in Sources */,
+				2885E94825D03838004DCCC0 /* Entity.swift in Sources */,
 				28FF232B22CC9BD500573D4B /* Direction.swift in Sources */,
 				28FF230D22CC98B600573D4B /* AppDelegate.swift in Sources */,
 				28FF232D22CC9BFD00573D4B /* Animate.swift in Sources */,
