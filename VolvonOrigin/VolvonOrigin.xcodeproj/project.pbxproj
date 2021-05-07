@@ -21,7 +21,6 @@
 		28FF232D22CC9BFD00573D4B /* Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FF232C22CC9BFD00573D4B /* Animate.swift */; };
 		28FF233522CC9D4900573D4B /* SKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FF233422CC9D4900573D4B /* SKButton.swift */; };
 		28FF233722CC9D7500573D4B /* RockerControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FF233622CC9D7500573D4B /* RockerControll.swift */; };
-		E91BFE872644CDEB00C9A669 /* TextureComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91BFE862644CDEB00C9A669 /* TextureComponent.swift */; };
 		E91BFE8D2644D0C300C9A669 /* GameplayKit编程指南：关于GameplayKit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E91BFE8C2644D0C300C9A669 /* GameplayKit编程指南：关于GameplayKit.pdf */; };
 		E91BFE902644D0CB00C9A669 /* GameplayKit编程指南：随机化.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E91BFE8F2644D0CB00C9A669 /* GameplayKit编程指南：随机化.pdf */; };
 		E91BFE932644D10200C9A669 /* GameplayKit编程指南：实体和组件.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E91BFE922644D10200C9A669 /* GameplayKit编程指南：实体和组件.pdf */; };
@@ -30,6 +29,9 @@
 		E91BFE9C2644D1F800C9A669 /* GameplayKit编程指南：寻路.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E91BFE9B2644D1F800C9A669 /* GameplayKit编程指南：寻路.pdf */; };
 		E91BFE9F2644D21400C9A669 /* GameplayKit编程指南：代理、目标和行为.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E91BFE9E2644D21400C9A669 /* GameplayKit编程指南：代理、目标和行为.pdf */; };
 		E91BFEA22644D23300C9A669 /* GameplayKit编程指南：规则系统.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E91BFEA12644D23300C9A669 /* GameplayKit编程指南：规则系统.pdf */; };
+		E91BFEAB2644DC0D00C9A669 /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91BFEAA2644DC0D00C9A669 /* RenderComponent.swift */; };
+		E91BFEAF2644E09100C9A669 /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91BFEAE2644E09100C9A669 /* GameConfig.swift */; };
+		E91BFEB22644E2F600C9A669 /* TestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91BFEB12644E2F600C9A669 /* TestEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +51,6 @@
 		28FF232C22CC9BFD00573D4B /* Animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate.swift; sourceTree = "<group>"; };
 		28FF233422CC9D4900573D4B /* SKButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKButton.swift; sourceTree = "<group>"; };
 		28FF233622CC9D7500573D4B /* RockerControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockerControll.swift; sourceTree = "<group>"; };
-		E91BFE862644CDEB00C9A669 /* TextureComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureComponent.swift; sourceTree = "<group>"; };
 		E91BFE8C2644D0C300C9A669 /* GameplayKit编程指南：关于GameplayKit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GameplayKit编程指南：关于GameplayKit.pdf"; sourceTree = "<group>"; };
 		E91BFE8F2644D0CB00C9A669 /* GameplayKit编程指南：随机化.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GameplayKit编程指南：随机化.pdf"; sourceTree = "<group>"; };
 		E91BFE922644D10200C9A669 /* GameplayKit编程指南：实体和组件.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GameplayKit编程指南：实体和组件.pdf"; sourceTree = "<group>"; };
@@ -58,6 +59,9 @@
 		E91BFE9B2644D1F800C9A669 /* GameplayKit编程指南：寻路.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GameplayKit编程指南：寻路.pdf"; sourceTree = "<group>"; };
 		E91BFE9E2644D21400C9A669 /* GameplayKit编程指南：代理、目标和行为.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GameplayKit编程指南：代理、目标和行为.pdf"; sourceTree = "<group>"; };
 		E91BFEA12644D23300C9A669 /* GameplayKit编程指南：规则系统.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GameplayKit编程指南：规则系统.pdf"; sourceTree = "<group>"; };
+		E91BFEAA2644DC0D00C9A669 /* RenderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderComponent.swift; sourceTree = "<group>"; };
+		E91BFEAE2644E09100C9A669 /* GameConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfig.swift; sourceTree = "<group>"; };
+		E91BFEB12644E2F600C9A669 /* TestEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +118,14 @@
 				28FF230C22CC98B600573D4B /* AppDelegate.swift */,
 				28FF230E22CC98B600573D4B /* GameScene.sks */,
 				28FF231022CC98B600573D4B /* Actions.sks */,
+				E91BFEAE2644E09100C9A669 /* GameConfig.swift */,
 				28FF231222CC98B600573D4B /* GameScene.swift */,
 				28FF231422CC98B600573D4B /* GameViewController.swift */,
 				28FF231622CC98B600573D4B /* Main.storyboard */,
 				28FF231922CC98B700573D4B /* Assets.xcassets */,
 				28FF231B22CC98B700573D4B /* LaunchScreen.storyboard */,
 				28FF231E22CC98B700573D4B /* Info.plist */,
+				E91BFEB12644E2F600C9A669 /* TestEntity.swift */,
 			);
 			path = VolvonOrigin;
 			sourceTree = "<group>";
@@ -170,7 +176,7 @@
 		E91BFE852644CD9600C9A669 /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				E91BFE862644CDEB00C9A669 /* TextureComponent.swift */,
+				E91BFEAA2644DC0D00C9A669 /* RenderComponent.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -272,13 +278,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				28FF232722CC997100573D4B /* LocalPlayer.swift in Sources */,
+				E91BFEAF2644E09100C9A669 /* GameConfig.swift in Sources */,
 				28FF233522CC9D4900573D4B /* SKButton.swift in Sources */,
 				28FF233722CC9D7500573D4B /* RockerControll.swift in Sources */,
 				28FF231322CC98B600573D4B /* GameScene.swift in Sources */,
 				28FF231522CC98B600573D4B /* GameViewController.swift in Sources */,
 				2885E94825D03838004DCCC0 /* Entity.swift in Sources */,
-				E91BFE872644CDEB00C9A669 /* TextureComponent.swift in Sources */,
 				28FF232B22CC9BD500573D4B /* Direction.swift in Sources */,
+				E91BFEB22644E2F600C9A669 /* TestEntity.swift in Sources */,
+				E91BFEAB2644DC0D00C9A669 /* RenderComponent.swift in Sources */,
 				28FF230D22CC98B600573D4B /* AppDelegate.swift in Sources */,
 				28FF232D22CC9BFD00573D4B /* Animate.swift in Sources */,
 			);
