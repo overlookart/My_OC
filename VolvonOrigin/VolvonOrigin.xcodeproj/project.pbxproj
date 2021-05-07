@@ -21,6 +21,15 @@
 		28FF232D22CC9BFD00573D4B /* Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FF232C22CC9BFD00573D4B /* Animate.swift */; };
 		28FF233522CC9D4900573D4B /* SKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FF233422CC9D4900573D4B /* SKButton.swift */; };
 		28FF233722CC9D7500573D4B /* RockerControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FF233622CC9D7500573D4B /* RockerControll.swift */; };
+		E91BFE872644CDEB00C9A669 /* TextureComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91BFE862644CDEB00C9A669 /* TextureComponent.swift */; };
+		E91BFE8D2644D0C300C9A669 /* GameplayKit编程指南：关于GameplayKit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E91BFE8C2644D0C300C9A669 /* GameplayKit编程指南：关于GameplayKit.pdf */; };
+		E91BFE902644D0CB00C9A669 /* GameplayKit编程指南：随机化.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E91BFE8F2644D0CB00C9A669 /* GameplayKit编程指南：随机化.pdf */; };
+		E91BFE932644D10200C9A669 /* GameplayKit编程指南：实体和组件.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E91BFE922644D10200C9A669 /* GameplayKit编程指南：实体和组件.pdf */; };
+		E91BFE962644D13300C9A669 /* GameplayKit编程指南：状态机.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E91BFE952644D13300C9A669 /* GameplayKit编程指南：状态机.pdf */; };
+		E91BFE992644D1CD00C9A669 /* GameplayKit编程指南：Minmax策略师.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E91BFE982644D1CD00C9A669 /* GameplayKit编程指南：Minmax策略师.pdf */; };
+		E91BFE9C2644D1F800C9A669 /* GameplayKit编程指南：寻路.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E91BFE9B2644D1F800C9A669 /* GameplayKit编程指南：寻路.pdf */; };
+		E91BFE9F2644D21400C9A669 /* GameplayKit编程指南：代理、目标和行为.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E91BFE9E2644D21400C9A669 /* GameplayKit编程指南：代理、目标和行为.pdf */; };
+		E91BFEA22644D23300C9A669 /* GameplayKit编程指南：规则系统.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E91BFEA12644D23300C9A669 /* GameplayKit编程指南：规则系统.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +49,15 @@
 		28FF232C22CC9BFD00573D4B /* Animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate.swift; sourceTree = "<group>"; };
 		28FF233422CC9D4900573D4B /* SKButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKButton.swift; sourceTree = "<group>"; };
 		28FF233622CC9D7500573D4B /* RockerControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockerControll.swift; sourceTree = "<group>"; };
+		E91BFE862644CDEB00C9A669 /* TextureComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureComponent.swift; sourceTree = "<group>"; };
+		E91BFE8C2644D0C300C9A669 /* GameplayKit编程指南：关于GameplayKit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GameplayKit编程指南：关于GameplayKit.pdf"; sourceTree = "<group>"; };
+		E91BFE8F2644D0CB00C9A669 /* GameplayKit编程指南：随机化.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GameplayKit编程指南：随机化.pdf"; sourceTree = "<group>"; };
+		E91BFE922644D10200C9A669 /* GameplayKit编程指南：实体和组件.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GameplayKit编程指南：实体和组件.pdf"; sourceTree = "<group>"; };
+		E91BFE952644D13300C9A669 /* GameplayKit编程指南：状态机.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GameplayKit编程指南：状态机.pdf"; sourceTree = "<group>"; };
+		E91BFE982644D1CD00C9A669 /* GameplayKit编程指南：Minmax策略师.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GameplayKit编程指南：Minmax策略师.pdf"; sourceTree = "<group>"; };
+		E91BFE9B2644D1F800C9A669 /* GameplayKit编程指南：寻路.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GameplayKit编程指南：寻路.pdf"; sourceTree = "<group>"; };
+		E91BFE9E2644D21400C9A669 /* GameplayKit编程指南：代理、目标和行为.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GameplayKit编程指南：代理、目标和行为.pdf"; sourceTree = "<group>"; };
+		E91BFEA12644D23300C9A669 /* GameplayKit编程指南：规则系统.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GameplayKit编程指南：规则系统.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +74,7 @@
 		2885E94425D034E1004DCCC0 /* GamePlayKit */ = {
 			isa = PBXGroup;
 			children = (
-				2885E94625D037E0004DCCC0 /* Component */,
+				E91BFE852644CD9600C9A669 /* Component */,
 				2885E94525D037D2004DCCC0 /* Entity */,
 			);
 			path = GamePlayKit;
@@ -70,16 +88,10 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
-		2885E94625D037E0004DCCC0 /* Component */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Component;
-			sourceTree = "<group>";
-		};
 		28FF230022CC98B600573D4B = {
 			isa = PBXGroup;
 			children = (
+				E91BFE8B2644D06000C9A669 /* DevDom */,
 				2885E94425D034E1004DCCC0 /* GamePlayKit */,
 				28FF232822CC99F800573D4B /* SpriteKit */,
 				28FF232422CC992000573D4B /* GameKit */,
@@ -155,6 +167,29 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		E91BFE852644CD9600C9A669 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				E91BFE862644CDEB00C9A669 /* TextureComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		E91BFE8B2644D06000C9A669 /* DevDom */ = {
+			isa = PBXGroup;
+			children = (
+				E91BFEA12644D23300C9A669 /* GameplayKit编程指南：规则系统.pdf */,
+				E91BFE9E2644D21400C9A669 /* GameplayKit编程指南：代理、目标和行为.pdf */,
+				E91BFE9B2644D1F800C9A669 /* GameplayKit编程指南：寻路.pdf */,
+				E91BFE982644D1CD00C9A669 /* GameplayKit编程指南：Minmax策略师.pdf */,
+				E91BFE952644D13300C9A669 /* GameplayKit编程指南：状态机.pdf */,
+				E91BFE922644D10200C9A669 /* GameplayKit编程指南：实体和组件.pdf */,
+				E91BFE8F2644D0CB00C9A669 /* GameplayKit编程指南：随机化.pdf */,
+				E91BFE8C2644D0C300C9A669 /* GameplayKit编程指南：关于GameplayKit.pdf */,
+			);
+			path = DevDom;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -214,10 +249,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				28FF231822CC98B600573D4B /* Main.storyboard in Resources */,
+				E91BFE992644D1CD00C9A669 /* GameplayKit编程指南：Minmax策略师.pdf in Resources */,
+				E91BFE9F2644D21400C9A669 /* GameplayKit编程指南：代理、目标和行为.pdf in Resources */,
+				E91BFE932644D10200C9A669 /* GameplayKit编程指南：实体和组件.pdf in Resources */,
+				E91BFE9C2644D1F800C9A669 /* GameplayKit编程指南：寻路.pdf in Resources */,
+				E91BFE8D2644D0C300C9A669 /* GameplayKit编程指南：关于GameplayKit.pdf in Resources */,
+				E91BFE902644D0CB00C9A669 /* GameplayKit编程指南：随机化.pdf in Resources */,
 				28FF230F22CC98B600573D4B /* GameScene.sks in Resources */,
 				28FF231A22CC98B700573D4B /* Assets.xcassets in Resources */,
 				28FF231D22CC98B700573D4B /* LaunchScreen.storyboard in Resources */,
+				E91BFEA22644D23300C9A669 /* GameplayKit编程指南：规则系统.pdf in Resources */,
 				28FF231122CC98B600573D4B /* Actions.sks in Resources */,
+				E91BFE962644D13300C9A669 /* GameplayKit编程指南：状态机.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +277,7 @@
 				28FF231322CC98B600573D4B /* GameScene.swift in Sources */,
 				28FF231522CC98B600573D4B /* GameViewController.swift in Sources */,
 				2885E94825D03838004DCCC0 /* Entity.swift in Sources */,
+				E91BFE872644CDEB00C9A669 /* TextureComponent.swift in Sources */,
 				28FF232B22CC9BD500573D4B /* Direction.swift in Sources */,
 				28FF230D22CC98B600573D4B /* AppDelegate.swift in Sources */,
 				28FF232D22CC9BFD00573D4B /* Animate.swift in Sources */,
