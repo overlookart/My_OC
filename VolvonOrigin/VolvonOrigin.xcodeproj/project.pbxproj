@@ -32,6 +32,10 @@
 		E91BFEAB2644DC0D00C9A669 /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91BFEAA2644DC0D00C9A669 /* RenderComponent.swift */; };
 		E91BFEAF2644E09100C9A669 /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91BFEAE2644E09100C9A669 /* GameConfig.swift */; };
 		E91BFEB22644E2F600C9A669 /* TestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91BFEB12644E2F600C9A669 /* TestEntity.swift */; };
+		E991A2BA264684AA00DB365E /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E991A2B9264684AA00DB365E /* ButtonComponent.swift */; };
+		E991A2BD264686A300DB365E /* BaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E991A2BC264686A300DB365E /* BaseEntity.swift */; };
+		E991A2C12646878E00DB365E /* BaseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E991A2C02646878E00DB365E /* BaseScene.swift */; };
+		E991A2C5264687BA00DB365E /* BaseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E991A2C4264687BA00DB365E /* BaseState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +66,10 @@
 		E91BFEAA2644DC0D00C9A669 /* RenderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderComponent.swift; sourceTree = "<group>"; };
 		E91BFEAE2644E09100C9A669 /* GameConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfig.swift; sourceTree = "<group>"; };
 		E91BFEB12644E2F600C9A669 /* TestEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEntity.swift; sourceTree = "<group>"; };
+		E991A2B9264684AA00DB365E /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
+		E991A2BC264686A300DB365E /* BaseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEntity.swift; sourceTree = "<group>"; };
+		E991A2C02646878E00DB365E /* BaseScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScene.swift; sourceTree = "<group>"; };
+		E991A2C4264687BA00DB365E /* BaseState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,8 @@
 		2885E94425D034E1004DCCC0 /* GamePlayKit */ = {
 			isa = PBXGroup;
 			children = (
+				E991A2C3264687AB00DB365E /* State */,
+				E991A2BF2646877500DB365E /* Scene */,
 				E91BFE852644CD9600C9A669 /* Component */,
 				2885E94525D037D2004DCCC0 /* Entity */,
 			);
@@ -88,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				2885E94725D03838004DCCC0 /* Entity.swift */,
+				E991A2BC264686A300DB365E /* BaseEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -177,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				E91BFEAA2644DC0D00C9A669 /* RenderComponent.swift */,
+				E991A2B9264684AA00DB365E /* ButtonComponent.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -194,6 +206,22 @@
 				E91BFE8C2644D0C300C9A669 /* GameplayKit编程指南：关于GameplayKit.pdf */,
 			);
 			path = DevDom;
+			sourceTree = "<group>";
+		};
+		E991A2BF2646877500DB365E /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E991A2C02646878E00DB365E /* BaseScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		E991A2C3264687AB00DB365E /* State */ = {
+			isa = PBXGroup;
+			children = (
+				E991A2C4264687BA00DB365E /* BaseState.swift */,
+			);
+			path = State;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,13 +306,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				28FF232722CC997100573D4B /* LocalPlayer.swift in Sources */,
+				E991A2BA264684AA00DB365E /* ButtonComponent.swift in Sources */,
 				E91BFEAF2644E09100C9A669 /* GameConfig.swift in Sources */,
 				28FF233522CC9D4900573D4B /* SKButton.swift in Sources */,
+				E991A2C12646878E00DB365E /* BaseScene.swift in Sources */,
 				28FF233722CC9D7500573D4B /* RockerControll.swift in Sources */,
+				E991A2C5264687BA00DB365E /* BaseState.swift in Sources */,
 				28FF231322CC98B600573D4B /* GameScene.swift in Sources */,
 				28FF231522CC98B600573D4B /* GameViewController.swift in Sources */,
 				2885E94825D03838004DCCC0 /* Entity.swift in Sources */,
 				28FF232B22CC9BD500573D4B /* Direction.swift in Sources */,
+				E991A2BD264686A300DB365E /* BaseEntity.swift in Sources */,
 				E91BFEB22644E2F600C9A669 /* TestEntity.swift in Sources */,
 				E91BFEAB2644DC0D00C9A669 /* RenderComponent.swift in Sources */,
 				28FF230D22CC98B600573D4B /* AppDelegate.swift in Sources */,
